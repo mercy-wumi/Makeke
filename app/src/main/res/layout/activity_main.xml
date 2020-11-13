@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/number"-->
+<!--        style="@style/list"-->
+<!--        android:background="@color/numberColor"-->
+<!--        android:text="@string/numbers"-->
+<!--        android:onClick="numberActivity"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/family"-->
+<!--        style="@style/list"-->
+<!--        android:textColor="#000000"-->
+<!--        android:background="?android:attr/selectableItemBackground"-->
+<!--        android:text="@string/family_members" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/phrases"-->
+<!--        style="@style/list"-->
+<!--        android:background="@color/phraseColor"-->
+<!--        android:text="@string/phrases" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/color"-->
+<!--        style="@style/list"-->
+<!--        android:background="@color/Color"-->
+<!--        android:text="@string/colors" />-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabSelectedTextColor="@android:color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/numberTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numbers" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/familyTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/colorTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/phrasesTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phrases" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

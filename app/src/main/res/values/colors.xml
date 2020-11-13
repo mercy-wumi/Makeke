@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="numberColor">@android:color/holo_orange_light</color>
+    <color name="familyColor">@android:color/holo_purple</color>
+    <color name="phraseColor">@android:color/holo_green_light</color>
+    <color name="Color">@android:color/holo_blue_dark</color>
+    <color name="makeke_text_color">#ffffff</color>
+    <color name="image_bgcolor">#fff7da</color>
+
+
+</resources>

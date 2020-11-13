@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Makeke</string>
+    <string name="numbers">Numbers</string>
+    <string name="family_members">Family Members</string>
+    <string name="phrases">Phrases</string>
+    <string name="colors">Colors</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
